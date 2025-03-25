@@ -1,0 +1,43 @@
+.app {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.box {
+  width: 114px;
+  height: 178px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 0 1px #000 inset; */
+}
+
+.drop {
+  width: 114px;
+  height: 178px;
+  margin-top: -178px;
+  border-radius: 8px;
+}
+
+div:focus {
+  z-index: 10;
+  outline: 0;
+}
+
+.stack {
+  margin-right: 50px;
+}
+
+.stack:last-child {
+  margin-right: 0;
+}
+
+.slot {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  left: 0px;
+  top: 0px;
+  width: 114px;
+  height: 178px;
+  cursor: default;
+  border-radius: 8px;
+}
